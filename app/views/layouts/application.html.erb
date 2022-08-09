@@ -8,8 +8,21 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+<body>
 
-  <body>
-    <%= yield %>
-  </body>
+ <header class="header">
+  <div class="header__inner">
+   <div class="header__title">
+    <h1>Cheat</h1>
+     </div>
+      <div class="header__nav">
+       <ul style="list-style: none;">
+        <li><a href="" class="btn btn--orange btn--radius">PUSH</a>
+       </ul>
+   </div>
+  </div>
+ </header>
+ <%= yield %>
+
+</body>
 </html>
