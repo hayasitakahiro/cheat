@@ -52,7 +52,8 @@ div {
 a.btn--orange {
   color: #fff;
   background-color: #158b2b;
-}
+
+  }
 .btn--orange:hover,
 a.btn--orange:hover {
   color: #fff;
